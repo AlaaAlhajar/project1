@@ -1,0 +1,305 @@
+body{
+    margin:0;
+    padding: 0;
+    height: 2000px;
+}
+.container{
+    margin: auto;
+    width: 1150px;
+}
+header{
+    width: 100%;
+    height: 350px;
+    background-color: rgb(163, 88, 159);
+}
+/*navbar*/
+nav {
+      width: 100%;
+      height: 60px;
+      background-color: rgb(98, 78, 104);
+      position: fixed;
+
+  }
+  
+  nav > ul {
+    width: 40%;
+    display: flex;
+      justify-content: space-evenly;
+    flex-wrap: wrap;
+      align-items: center;
+      padding-inline-start: 0;
+      margin-block: 0;
+      height: 100%;
+  }
+  
+  nav > ul > li {
+      color: #ffffff;
+      margin: 0 0.2rem;
+      padding: 0.2rem;
+      display: block;
+      font-weight: bold;
+      font-size:20 ;
+
+  }
+  
+  nav > ul > li:hover {
+    background-color: #dfdfe2;
+    color: #1b1b32;
+    cursor: pointer;
+  }
+  
+  li > a {
+    color: inherit;
+    text-decoration: none;
+  }
+  /*end of nvbar*/
+.container .heading{
+    width: 50%;
+    float: left;
+    margin-top: 100px;
+    border-right: 1px solid #a9a9a9;
+}
+
+.container .heading h2 { 
+    width: 49%;
+    color: white;
+    line-height: 1.8;
+    font-size: 25px;
+}
+.container .heading h2 span:hover{
+    color: #00BC8a;
+    cursor: pointer;
+}
+.container .lorem{
+    width: 45%; 
+    float: right;
+    margin-left:3%;
+    margin-top: 100px;
+}
+.container .lorem p{
+    font-family: Tahoma;
+    color: hsl(0, 0%, 66%);
+    line-height: 1.5;
+    font-weight: bold;
+}
+.container .lorem button{
+    background: none;
+    border:0;
+    color:white;
+    font-size: 20px;
+    background: #00BC8a;
+    padding: 15px;
+    border-radius: 50px;
+    width: 200px;
+    text-transform: uppercase;
+    outline: 0;
+    cursor: pointer;
+}
+.megna{
+    width: 100%;
+    height: 350px;
+    border-bottom: 1px solid #ddd;
+    padding-top: 50px;
+}
+.megna .learn {
+    width: 50%;
+    float: left;
+    border-right: 1px solid #a9a9a9;
+}
+.megna .learn h2 {
+    font-family: Tohoma;
+    text-decoration: underline;
+    color: #777;
+}
+.megna .learn p{
+    line-height: 1.7;
+    color: #888;
+    font-family: Tohoma;
+}
+.megna .learn button{
+    background: #fff;
+    border: 1px solid #ddd;
+    color:#888;
+    font-size: 15px;
+    padding: 15px;
+    border-radius: 30px;
+    width: 200px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+.ipsum{
+    float: left;
+    margin-left:5% ;
+    width: 40%;
+    visibility: hidden;
+} 
+.ipsum p{
+    font-family: Tahoma;
+    line-height: 2;
+    font-weight: bold;
+    color: #666;
+}
+.ipsum i{
+    padding-right: 25px;
+    color: #00BC8a;
+}
+
+/*------main------*/
+.main{
+    width: 100%;
+    height: auto;
+    padding-top: 50PX;
+    padding-bottom: 50px;
+    overflow: hidden;
+    background-color: #f2f2f2;
+}
+.main .container .clear{
+    clear: both;
+    border-top: 1px solid #777;
+    padding-top: 1PX;
+}
+.main .container .part{
+   padding-bottom: 30px;
+   height: 320px;
+   background-color: white;
+ margin-top: 20px;
+  
+}
+.main .container .part img {
+    float: left;
+    width: 40%;
+    height: 95%;
+    padding-left: 30px;
+    padding-top: 20px;
+    visibility: visible;
+}
+.main .container .part .he{
+    float: right;
+    width: 45%;
+    padding-top: 50px;
+
+}
+.main .container .part .he h2{
+    color: #777;
+    font-family: Tahoma;
+    text-decoration: underline;
+
+}
+.main .container .part .he p{
+    color: #888;
+    font-family: Tahoma;
+    line-height: 1.5;
+    font-weight: bold;  
+}
+.main .container .part .he button {
+    background-color: none;
+    border: 1px solid #ddd;
+    width: 200px;
+    border-radius: 20px;
+    padding: 15px;
+    font-size: 20px;
+    color: #777;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+.main .container .part .he button:hover{
+    background-color: #888;
+    color: white;
+}
+.main .container .mainButton {
+    background-color: none;
+    align-items: center;
+    border: 1px solid #ddd;
+    width: 300px;
+    border-radius: 20px;
+    padding: 15px;
+    font-size: 20px;
+    color: #777;
+    text-transform: uppercase;
+    cursor: pointer; 
+    margin-top: 20px;
+    margin-left: 400px;
+}
+.form{
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    padding-top: 50px;
+}
+.form .inputs {
+    float: left;
+    width: 50%;
+    border-right: 2px solid #ddd;
+}
+.form .inputs h2 {
+    font-family: tahoma;
+
+}
+.form .inputs p{
+    line-height: 2;
+    font-family: tahoma;
+    font-weight: bold;
+    color: #888;
+
+}
+form input[type=text],input[type=email] {
+width: 200px;
+height: 40px;
+padding-left: 10px;
+margin-bottom: 10px;
+font-size: 17px;
+}
+form textarea{
+    width:410px;
+    padding-left: 20px;
+    font-size: 17px;
+}
+form input[type=submit]{
+    display: block;
+    width: 200px;
+    border: 1px solid #ddd;
+    border-radius: 20px;
+    padding: 10px;
+    margin-top: 20px;
+    margin-left: 120px;
+    /* text-transform: uppercase; */
+    outline: 0;
+    cursor: pointer;
+    color: #525151;
+    font-weight: bold;
+    font-size: 15px;
+    background-color: #cecece;
+    
+}
+
+.form .links {
+    float: left;
+    padding-top: 50px;
+    padding-left: 50px;
+   
+}
+.form .links p{
+    line-height: 2.5;
+    
+}
+.form .links p i {
+    padding-right: 25px;
+    color: #00BC8a;
+}
+/*------footer-------*/
+footer{
+    width: 100%;
+    height: 40px;
+    border-top: 1px solid #ddd;
+    /* background-color: #e6e2e2; */
+    background-color: rgb(98, 78, 104);
+    margin-top: 20px;
+}
+footer p {
+    text-align: center;
+    color: #ddd;
+    font-size: 15px;
+    font-weight: bold;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+
